@@ -32,7 +32,7 @@ export default function Login({navigation}) {
             <Button 
                 title="Register"
                 color="rgba(68, 67, 67, 0.55)"
-                onPress={() => navigation.navigate('Feed')}
+                onPress={() => navigation.navigate('Main')}
             />
         </View>
         

@@ -1,14 +1,14 @@
 import { Image } from 'expo-image';
 import React from 'react';
 import {useState} from 'react';
-import { TextInput, View, Button, StyleSheet, StatusBar } from 'react-native';
+import { TextInput, View, Button, StyleSheet, StatusBar, Text } from 'react-native';
 
-export default function Feed() {
+export default function Feed({navigation}) {
     return (
         <View style={styles.container}>
-            {/* <Text style={styles.text}>FEED</Text> **/}
-        
+            
         </View>
+
     );
 }
 
@@ -23,5 +23,13 @@ const styles = StyleSheet.create({
         //fontFamily: "Jersey 25",
         fontSize: 36,
         color: "#fff",
+    },
+
+    navbar: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        backgroundColor: '#121212',
+        paddingVertical: 10,
     },
 });
